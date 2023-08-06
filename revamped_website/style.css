@@ -1,0 +1,53 @@
+h1 {
+    font-family: Helvetica;
+    background-color: beige;
+    color: black;
+    text-align: center;
+ }
+
+div {
+    font-family: Helvetica;
+    background-color: beige;
+    color: black;
+    font-size: 32px;
+    padding: 5px;
+ }
+ 
+ 
+ nav {
+    background-color: beige;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+ }
+ h2 {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+@media(max-width: 530px) {
+    h1 {
+        background-color: beige;
+    }
+
+    p {
+        font-size: 150%;
+    }
+}
+
+@media(max-width: 1030px) {
+    h1 {
+        background-color: gray;
+    }
+
+    h2 {
+        color: gray
+    }
+
+    p {
+        font-size: 120%;
+    }
+
+}
